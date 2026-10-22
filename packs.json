@@ -1,18 +1,20 @@
 {
   "schemaVersion": 1,
-  "release": "packs-1.0-r2",
+  "release": "packs-1.0-r3",
   "pluginVersion": "1.0",
-  "compatiblePluginJarSha256": "3DF6C622993453F8D34564AC5173AE85DC05370326B3620DA55F57319480062D",
-  "description": "Resource packs and disabled editable-theme examples for BeastMiniMap 1.0.",
-  "distribution": "Install BeastMiniMap-Artwork.zip and each required client base ZIP unchanged under plugins/BeastMiniMap/Packs/. The JAR has no embedded pack ZIPs or artwork images; five small JSON layout contracts remain compiled resources.",
-  "basePackContents": "Runtime textures, shaders, fonts and metadata are unchanged. Public ZIPs omit the Java helper and include current external-asset installation instructions.",
+  "compatiblePluginJarSha256": "453F867E5B0CF69BD26EA4D2E9349094C4DD2CA55D2163B3C0EF33717A344533",
+  "description": "Complete resource packs and optional disabled editable-theme examples for BeastMiniMap 1.0.",
+  "distribution": "Install one complete BeastMiniMap-<version>.zip unchanged under plugins/BeastMiniMap/Packs/ for each required client version. All seven built-in themes are included. No separate artwork file or automatic download is required. The plugin JAR contains no ZIPs or artwork images.",
+  "basePackContents": "Each version ZIP includes its client assets and all server preparation artwork. The server-only preparation payload is removed before client delivery. Runtime textures, shaders, fonts and metadata remain unchanged.",
+  "pluginJarBytes": 1762192,
+  "containsEmbeddedPackArtwork": false,
   "assets": [
     {
-      "type": "base",
+      "type": "complete-pack",
       "filename": "BeastMiniMap-1.21.11.zip",
-      "bytes": 3366946,
-      "sha256": "5E907FA48059F9D889500A4D06B31EC61E2B5A6CAD259EC60B3C71F1C3D01438",
-      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r2/BeastMiniMap-1.21.11.zip",
+      "bytes": 11553247,
+      "sha256": "1CCE1565530CACBCC6D1844BF7541B06CD26BA997D258A86D048E1788180AD3D",
+      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r3/BeastMiniMap-1.21.11.zip",
       "clientVersions": [
         "1.21.11"
       ],
@@ -23,14 +25,24 @@
         "description": "BeastMiniMap | brass cartographer HUD | Minecraft 1.21.11"
       },
       "installation": "server-input",
-      "installFolder": "Packs"
+      "installFolder": "Packs",
+      "themes": [
+        "cartographer",
+        "futuristic",
+        "vanilla",
+        "medieval",
+        "minimal_dark",
+        "cartoony",
+        "oceanic"
+      ],
+      "includesAllBuiltInArtwork": true
     },
     {
-      "type": "base",
+      "type": "complete-pack",
       "filename": "BeastMiniMap-1.21.9.zip",
-      "bytes": 3367058,
-      "sha256": "5EDC8973544CDCD7966A713DC653BFC47E6F9394434CE2CCF2B102B2C826CE9D",
-      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r2/BeastMiniMap-1.21.9.zip",
+      "bytes": 11553359,
+      "sha256": "FF9562FADCB3B6B6DFFAC54547179EF29095040A1F3C79DCC58AAAE4F6CD365C",
+      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r3/BeastMiniMap-1.21.9.zip",
       "clientVersions": [
         "1.21.9",
         "1.21.10"
@@ -42,14 +54,24 @@
         "description": "BeastMiniMap | brass cartographer HUD | Minecraft 1.21.9 / 1.21.10"
       },
       "installation": "server-input",
-      "installFolder": "Packs"
+      "installFolder": "Packs",
+      "themes": [
+        "cartographer",
+        "futuristic",
+        "vanilla",
+        "medieval",
+        "minimal_dark",
+        "cartoony",
+        "oceanic"
+      ],
+      "includesAllBuiltInArtwork": true
     },
     {
-      "type": "base",
+      "type": "complete-pack",
       "filename": "BeastMiniMap-26.1.zip",
-      "bytes": 3366951,
-      "sha256": "C88A4FEFA899CF7B818E42E4B675A2109A63D80519D8DF3C41D3E51B05B2EEB5",
-      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r2/BeastMiniMap-26.1.zip",
+      "bytes": 11553247,
+      "sha256": "2DAF9D7BE058B113B6ABB073F851AD6A14632011CF78FCD8770A33BBBA27DF47",
+      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r3/BeastMiniMap-26.1.zip",
       "clientVersions": [
         "26.1",
         "26.1.1",
@@ -62,14 +84,24 @@
         "description": "BeastMiniMap | brass cartographer HUD | Minecraft 26.1"
       },
       "installation": "server-input",
-      "installFolder": "Packs"
+      "installFolder": "Packs",
+      "themes": [
+        "cartographer",
+        "futuristic",
+        "vanilla",
+        "medieval",
+        "minimal_dark",
+        "cartoony",
+        "oceanic"
+      ],
+      "includesAllBuiltInArtwork": true
     },
     {
-      "type": "base",
+      "type": "complete-pack",
       "filename": "BeastMiniMap-26.2.zip",
-      "bytes": 3362400,
-      "sha256": "CD402F047A44D4D2DBA91B800A8479E3C433F0F8BA3690D372D497245E25D167",
-      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r2/BeastMiniMap-26.2.zip",
+      "bytes": 11545098,
+      "sha256": "D04CB9E50DA7A44E9205791FDA319FB3C8CB7774A6609604A1792124F5F86D73",
+      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r3/BeastMiniMap-26.2.zip",
       "clientVersions": [
         "26.2"
       ],
@@ -80,14 +112,24 @@
         "description": "BeastMiniMap | brass cartographer HUD | Minecraft 26.2"
       },
       "installation": "server-input",
-      "installFolder": "Packs"
+      "installFolder": "Packs",
+      "themes": [
+        "cartographer",
+        "futuristic",
+        "vanilla",
+        "medieval",
+        "minimal_dark",
+        "cartoony",
+        "oceanic"
+      ],
+      "includesAllBuiltInArtwork": true
     },
     {
-      "type": "base",
+      "type": "complete-pack",
       "filename": "BeastMiniMap-26.3.zip",
-      "bytes": 4341887,
-      "sha256": "A4EBC936814F49FF1B6F4B19AA58557FFBD5912F130AEBF3BEA07B1FC6AE96A6",
-      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r2/BeastMiniMap-26.3.zip",
+      "bytes": 12524593,
+      "sha256": "74F98F85AB4B2A431276BAC2E0F3356CD16869843CE02FE5EA36C6C9A97B8702",
+      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r3/BeastMiniMap-26.3.zip",
       "clientVersions": [
         "26.3"
       ],
@@ -104,16 +146,7 @@
         "description": "BeastMiniMap | brass cartographer HUD | Minecraft 26.3"
       },
       "installation": "server-input",
-      "installFolder": "Packs"
-    },
-    {
-      "type": "artwork",
-      "filename": "BeastMiniMap-Artwork.zip",
-      "bytes": 8179844,
-      "sha256": "9347F1669414D8539629C2C8E80B7C83310E95DA847DAE14CC0687E223BD8ADB",
-      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r2/BeastMiniMap-Artwork.zip",
       "installFolder": "Packs",
-      "required": true,
       "themes": [
         "cartographer",
         "futuristic",
@@ -122,14 +155,15 @@
         "minimal_dark",
         "cartoony",
         "oceanic"
-      ]
+      ],
+      "includesAllBuiltInArtwork": true
     },
     {
       "type": "editable-theme",
       "filename": "BeastMiniMap-Theme-Cartographer-1.0.zip",
-      "bytes": 2235245,
-      "sha256": "B2B0CDF536C6EE70ECB2BCC9960DB5855DD88B394FF9AEF3E969C6A7AD948BE0",
-      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r2/BeastMiniMap-Theme-Cartographer-1.0.zip",
+      "bytes": 2235265,
+      "sha256": "AFAC50DF6FC458CA8E5FB476CF8A8F7668138E68399BC24173537B45372F64E9",
+      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r3/BeastMiniMap-Theme-Cartographer-1.0.zip",
       "id": "cartographer_editable",
       "basedOn": "cartographer",
       "enabledByDefault": false,
@@ -139,9 +173,9 @@
     {
       "type": "editable-theme",
       "filename": "BeastMiniMap-Theme-Cartoony-1.0.zip",
-      "bytes": 845262,
-      "sha256": "59003B344FE58922B8456FAD6F4380AA8D133E525263DC26D0A34C7A54CC0D76",
-      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r2/BeastMiniMap-Theme-Cartoony-1.0.zip",
+      "bytes": 845282,
+      "sha256": "186C957B9F7E32227A80E43E6322EFA5CBC9AC86B18F09E7E8EA44992220C136",
+      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r3/BeastMiniMap-Theme-Cartoony-1.0.zip",
       "id": "cartoony_editable",
       "basedOn": "cartoony",
       "enabledByDefault": false,
@@ -151,9 +185,9 @@
     {
       "type": "editable-theme",
       "filename": "BeastMiniMap-Theme-Futuristic-1.0.zip",
-      "bytes": 832261,
-      "sha256": "7D28BE3AB77326CD2926C3651542A5897046151EB7E24DEEC019DC31844F5767",
-      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r2/BeastMiniMap-Theme-Futuristic-1.0.zip",
+      "bytes": 832281,
+      "sha256": "5C35CE3E5E111798C43E7AC760E9EEA2A32F82A3639584F7454E72A951E481AA",
+      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r3/BeastMiniMap-Theme-Futuristic-1.0.zip",
       "id": "futuristic_editable",
       "basedOn": "futuristic",
       "enabledByDefault": false,
@@ -163,9 +197,9 @@
     {
       "type": "editable-theme",
       "filename": "BeastMiniMap-Theme-Medieval-1.0.zip",
-      "bytes": 1152871,
-      "sha256": "C1D244572094F87B9337BDD9608CA6A78E2F4E35A33AF6832C54E6B8351932F5",
-      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r2/BeastMiniMap-Theme-Medieval-1.0.zip",
+      "bytes": 1152889,
+      "sha256": "38E231BA99E8DD8D52AFE9A221FDBFE4BFF0658B80561EA2A5997FC4E386C9C9",
+      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r3/BeastMiniMap-Theme-Medieval-1.0.zip",
       "id": "medieval_editable",
       "basedOn": "medieval",
       "enabledByDefault": false,
@@ -175,9 +209,9 @@
     {
       "type": "editable-theme",
       "filename": "BeastMiniMap-Theme-MinimalDark-1.0.zip",
-      "bytes": 959614,
-      "sha256": "E68A764FDC45322B70FD90D4FB7073E236FC48BBB63E384643E891D3271BCB78",
-      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r2/BeastMiniMap-Theme-MinimalDark-1.0.zip",
+      "bytes": 959634,
+      "sha256": "23A3B93F3707D931D721E3762564C2082FA67F5C21EA8D2F3D4BD83768A76FCC",
+      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r3/BeastMiniMap-Theme-MinimalDark-1.0.zip",
       "id": "minimal_dark_editable",
       "basedOn": "minimal_dark",
       "enabledByDefault": false,
@@ -187,9 +221,9 @@
     {
       "type": "editable-theme",
       "filename": "BeastMiniMap-Theme-Oceanic-1.0.zip",
-      "bytes": 1059938,
-      "sha256": "787498BD41B511A97734084AE8C62FA26CB032FF158F47F9CEB9C355490F26CA",
-      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r2/BeastMiniMap-Theme-Oceanic-1.0.zip",
+      "bytes": 1059957,
+      "sha256": "8BC130ACB717A8A9283D5FDF111AED47C1C8664A68809A3759D661DDC6194561",
+      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r3/BeastMiniMap-Theme-Oceanic-1.0.zip",
       "id": "oceanic_editable",
       "basedOn": "oceanic",
       "enabledByDefault": false,
@@ -199,17 +233,14 @@
     {
       "type": "editable-theme",
       "filename": "BeastMiniMap-Theme-Vanilla-1.0.zip",
-      "bytes": 578188,
-      "sha256": "4D49DE9E949BDEDC494EDF42089A56437FDE40ABDF3DF9FB4AB5E94F8176545B",
-      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r2/BeastMiniMap-Theme-Vanilla-1.0.zip",
+      "bytes": 578207,
+      "sha256": "F8EFD521A0FE2D736C32E2C09B1168903C995585DCF3E913130B3FAAECAF8D19",
+      "downloadUrl": "https://github.com/MrAxeTv/BeastMiniMap/releases/download/packs-1.0-r3/BeastMiniMap-Theme-Vanilla-1.0.zip",
       "id": "vanilla_editable",
       "basedOn": "vanilla",
       "enabledByDefault": false,
       "installFolder": "Themes/VanillaEditable",
       "pngFiles": 540
     }
-  ],
-  "pluginJarBytes": 1756503,
-  "containsEmbeddedPackArtwork": false,
-  "requiredSharedArtwork": "BeastMiniMap-Artwork.zip"
+  ]
 }
