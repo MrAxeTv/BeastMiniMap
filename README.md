@@ -11,6 +11,7 @@ This repository publishes **resource packs, editable theme examples and plugin i
 - Personal exploration and waypoints, plus administrator-managed public places.
 - Configurable zoom, minimap shapes/corners, markers and coordinate panels.
 - Per-player settings, configurable opening shortcuts and seven coordinated themes.
+- Individual button/settings permissions and personal waypoint limits per role.
 - 33 bundled languages, with 17 optional language downloads.
 - SQLite storage by default, with optional MySQL.
 
@@ -39,7 +40,7 @@ This complete-pack layout replaces the separate-artwork installation used by the
 1. Obtain the matching BeastMiniMap plugin build separately. Install `BeastMiniMap.jar` and the normal `BeastLib.jar` runtime in the server's `plugins` folder.
 2. Create `plugins/BeastMiniMap/Packs/` if needed. Put the single complete ZIP matching each required client version from the table above there. Keep the original filename and leave the archive intact. For 26.3 clients, install only `BeastMiniMap-26.3.zip`; it already contains all seven themes. The 1.21.9 ZIP deliberately also serves 1.21.10.
 3. Restart normally when installing a new plugin JAR. After adding or replacing only the complete pack inputs, use `/beastminimap reload` or restart normally. Configure pack hosting so the address reported by `/beastminimap pack info` is reachable by players.
-4. Join, accept the offered prepared resource pack and open `/beastminimap`.
+4. Grant your player roles the desired [map permissions](#permissions), then join, accept the offered prepared resource pack and open `/beastminimap`.
 
 Without a pack installed, administrative commands remain available and the plugin reports the missing file with the GitHub download link. Install the matching ZIP and reload to enable its maps. A missing or invalid version's pack leaves other installed versions available.
 
@@ -78,7 +79,37 @@ Players preview and Apply installed themes in Map Settings without another pack 
 | `/beastminimap theme list` / `/beastminimap theme set <id>` | Inspect themes or select the server default; administrator |
 | `/beastminimap reload` | Reload settings; administrator |
 
-`/beastminimap` is permanent. Default configurable aliases are `/minimap`, `/bmm` and `/map`; another plugin may own an alias. Permissions: `beastminimap.use` for players, `beastminimap.admin` for server controls, and `beastminimap.places.admin` for public-place editing.
+`/beastminimap` is permanent. Default configurable aliases are `/minimap`, `/bmm` and `/map`; another plugin may own an alias.
+
+## Permissions
+
+Ordinary players require explicit action grants by default; operators inherit all declared permissions. Give roles the two control groups below, or grant individual actions. Commands, shortcuts, pixel menus and native dialogs use the same checks. Explicit false child permissions override broader wildcard grants.
+
+| Permission | Access |
+| --- | --- |
+| `beastminimap.use` | Basic player commands; enabled by default |
+| `beastminimap.buttons.*` | All map buttons, including opening the atlas |
+| `beastminimap.buttons.zoom.in` | Atlas zoom-in action only |
+| `beastminimap.settings.*` | All player settings |
+| `beastminimap.settings.minimap.shape` | Minimap shape setting only |
+| `beastminimap.waypoints.limit.N` | Personal waypoint allowance; highest true numeric grant wins |
+| `beastminimap.waypoints.limit.unlimited` | Unlimited personal waypoints |
+| `beastminimap.admin` | Server controls; operator default |
+| `beastminimap.places.admin` | Shared-place editing; operator default |
+
+Waypoint limits count all of a player's worlds. Zero blocks new waypoints; lowering a limit preserves existing records. Without a numeric or unlimited grant, `Atlas.WaypointsPerPlayer` applies (default 64). The button/settings groups do not grant unlimited waypoints, and quota grants do not unlock creation actions.
+
+For example, with LuckPerms:
+
+```text
+/lp group default permission set beastminimap.buttons.* true
+/lp group default permission set beastminimap.settings.* true
+/lp group default permission set beastminimap.waypoints.limit.16 true
+```
+
+`Permissions.RequireExplicitGrants: false` permits unassigned controls while honoring explicit denials. Denied actions show the editable language message and play a configurable villager rejection sound, with a feedback cooldown. Back/cancel, the recovery key and `/beastminimap map close` remain available after access changes.
+
+See the [complete permissions guide](docs/permissions.md) for every action, wildcard group, quota rule and configuration option.
 
 ## What is inside a complete pack?
 
