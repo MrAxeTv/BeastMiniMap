@@ -4,6 +4,8 @@ A corner minimap and interactive fullscreen atlas for Minecraft servers. Explore
 
 This repository publishes **resource packs, editable theme examples and plugin information**. Obtain the BeastMiniMap plugin JAR separately from its official distribution. Plugin implementation and source code are not published here.
 
+Read the [BeastMiniMap wiki](docs/gitbook/README.md) for setup, pack hosting, map controls, permissions, themes, terrain rendering, and storage. The [GitBook sidebar](docs/gitbook/SUMMARY.md) lists every guide, with [instructions for connecting GitBook](docs/gitbook/troubleshooting/github-gitbook-workflow.md).
+
 ## Features
 
 - Corner minimap and draggable fullscreen or framed atlas.
