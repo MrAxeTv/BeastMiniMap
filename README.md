@@ -11,7 +11,7 @@ This repository publishes **resource packs, editable theme examples and plugin i
 - Personal exploration and waypoints, plus administrator-managed public places.
 - Configurable zoom, minimap shapes/corners, markers and coordinate panels.
 - Per-player settings, configurable opening shortcuts and seven coordinated themes.
-- Editable language files; English and Croatian included.
+- 33 bundled languages, with 17 optional language downloads.
 - SQLite storage by default, with optional MySQL.
 
 ## Requirements
@@ -85,3 +85,23 @@ Players preview and Apply installed themes in Map Settings without another pack 
 Each complete ZIP contains the map interface artwork, buttons, player/place icons, minimap instruments, bitmap fonts, shaders and metadata for that Minecraft client version, plus the server artwork used to prepare all seven themes. It does not contain Java editor helpers, plugin implementation or server world maps. Edit optional theme PNGs through the supported runtime theme system; carrier cells are rebuilt automatically during preparation.
 
 Machine-readable download and compatibility information: [packs.json](packs.json).
+
+<!-- BEGIN BEASTMINIMAP LANGUAGES -->
+## Languages
+
+English (`en-US.yml`) is the default. The plugin bundles 33 European/US-English
+language files, including Russian and Turkish. The remaining 17 files are
+available in the [matching language snapshot](https://github.com/MrAxeTv/BeastMiniMap/tree/languages-f8663414d5f2cc59/languages).
+
+Selecting an optional filename downloads its matching defaults in the background
+when `Options.Language.Settings.AutoDownload: true` (the default). Set it to
+`false` to use manual installation. English remains available offline.
+
+For manual installation, download the YAML into `plugins/BeastMiniMap/Lang/`,
+select its exact filename with `Options.Language.Settings.File` in `config.yml`,
+then run `/beastminimap reload` or restart normally. Existing local edits are
+preserved. See [language downloads and checksums](languages/README.md).
+
+Translations are machine-assisted. Use `Atlas.MenuUi: native` for scripts the
+compact bitmap font cannot display; retain Latin text for the atlas header.
+<!-- END BEASTMINIMAP LANGUAGES -->
