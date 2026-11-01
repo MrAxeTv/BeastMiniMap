@@ -55,7 +55,7 @@ Another plugin can own `/map`. In that case, use the permanent `/beastminimap` c
 
 ## Letters are missing in styled menus
 
-The compact bitmap font cannot display every script. Set `Atlas.MenuUi: native` or use `/beastminimap menuui native` as an administrator. Chat and native dialogs support Unicode. Keep the atlas title and coordinate protocol labels in Latin text where required by the compact header presentation.
+The compact bitmap font cannot display every script. Set `Atlas.MenuUi: native` or use `/beastminimap menuui native` as an administrator. Chat and native dialogs support Unicode. Keep the atlas header in Latin text so it displays correctly.
 
 ## Live terrain is empty or an image has not changed
 

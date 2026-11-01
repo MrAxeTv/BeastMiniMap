@@ -1,7 +1,6 @@
 # Summary
 
 * [Welcome](README.md)
-* [Image Placement Guide](image-placement-guide.md)
 
 ## Getting Started
 
@@ -40,7 +39,6 @@
 * [Saved World Images](terrain/world-images.md)
 * [SQLite, MySQL, and Backups](storage.md)
 
-## Troubleshooting and Documentation
+## Troubleshooting
 
 * [Common Issues](troubleshooting/common-issues.md)
-* [GitHub and GitBook Workflow](troubleshooting/github-gitbook-workflow.md)

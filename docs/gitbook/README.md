@@ -41,8 +41,6 @@ Use Paper or Spigot **1.21.9 through 26.3**, with [BeastLib 1.7.3 or newer](http
 
 The plugin JAR contains no resource-pack ZIPs or artwork images. Download complete packs from the [official public releases](https://github.com/MrAxeTv/BeastMiniMap/releases). Each complete client-version pack includes all seven built-in themes.
 
-## Documentation images
+## Need help?
 
-The wiki uses the same gameplay images as the Spigot description. The [image placement guide](image-placement-guide.md) records their original Imgur links, local filenames, and placement, plus ideas for future screenshots.
-
-To connect these pages to GitBook, follow the [GitHub and GitBook workflow](troubleshooting/github-gitbook-workflow.md).
+Check [Common Issues](troubleshooting/common-issues.md) for problems with opening the map, accepting the resource pack, permissions, or saved settings. Use the [player command reference](commands/player-commands.md) for map controls and the [administrator command reference](commands/admin-commands.md) for server setup.

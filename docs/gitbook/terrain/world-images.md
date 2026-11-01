@@ -115,7 +115,7 @@ Players need the matching [base resource pack](../resource-packs/installation.md
 and the prepared image addon. Use a reachable content-addressed pack URL with
 `{sha1}` or `{path}` so different images have different download addresses.
 
-The previous committed image remains available until a replacement succeeds.
+The previous saved image remains available until a replacement succeeds.
 If a job fails or is cancelled, it does not erase that last good image. Use:
 
 ```text
