@@ -14,7 +14,9 @@ Each complete client resource pack includes all seven built-in themes. Players c
 
 **Server default** inherits the administrator's active theme and artwork overrides. Selecting a named built-in theme explicitly uses that preset instead.
 
-> **Screenshot placeholder — theme choices:** Show the theme selector and its preview before Apply. Suggested image: `11-theme-selector.png`. A comparison can also show the same map in Cartographer, Medieval, Futuristic and Cartoony.
+![Oceanic theme selected in the preset preview before Apply](../assets/images/09-theme-preview.png)
+
+*The theme preview shows the proposed minimap and atlas artwork before it is applied.*
 
 ## Server Default Theme
 

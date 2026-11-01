@@ -1,8 +1,12 @@
 # BeastMiniMap Wiki
 
+![BeastMiniMap logo with a map and compass](assets/images/00-beastminimap-logo.png)
+
 BeastMiniMap gives Minecraft players a corner minimap, an interactive fullscreen or framed atlas, personal waypoints, and shared server places. Players use the server's resource pack; no client mod is required.
 
 This guide is written for server owners and players. Start with installation, then choose permissions, terrain sources, and the player options your server allows.
+
+![A corner minimap and coordinate panel during gameplay](assets/images/01-minimap-overview.png)
 
 ## Start here
 
@@ -39,6 +43,6 @@ The plugin JAR contains no resource-pack ZIPs or artwork images. Download comple
 
 ## Documentation images
 
-The [image placement guide](image-placement-guide.md) lists suggested screenshots, filenames, and pages. Screenshot notes in the guides are instructions for adding real gameplay images, rather than empty image links.
+The wiki uses the same gameplay images as the Spigot description. The [image placement guide](image-placement-guide.md) records their original Imgur links, local filenames, and placement, plus ideas for future screenshots.
 
 To connect these pages to GitBook, follow the [GitHub and GitBook workflow](troubleshooting/github-gitbook-workflow.md).

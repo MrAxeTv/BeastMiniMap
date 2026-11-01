@@ -55,7 +55,9 @@ With the center crosshair off, the coordinate panel shows your player X/Y/Z. Wit
 
 The compass face stays north-up. Its needle follows the same direction as the atlas player symbol, from that symbol toward the displayed pointer. The last direction is retained over controls or while a menu is open. The corner minimap retains your actual world heading.
 
-> **Screenshot placeholder — atlas navigation:** Show the fullscreen map and a framed view with stacked coordinates as `03-fullscreen-atlas.png` and `04-framed-atlas.png`. Use `05-center-point.png` for the center crosshair and its X/Z readout.
+![Fullscreen atlas on the left and framed atlas on the right](../assets/images/03-atlas-layouts.png)
+
+*Both atlas layouts provide navigation tools, a compass and coordinates.*
 
 ## Closing and Gliding
 

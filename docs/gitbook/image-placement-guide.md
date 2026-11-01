@@ -1,34 +1,32 @@
 # Image Placement Guide
 
-Use real gameplay screenshots to show the map's appearance and controls. Keep the existing wiki text usable while images are being prepared.
+The wiki now embeds all twelve images from the owner's Spigot description. The PNGs live under `docs/gitbook/assets/images/` and retain the original downloaded bytes. Relative image links keep the pages and their images together when GitBook synchronizes the wiki.
 
-Store new images under `docs/gitbook/assets/images/`. Use PNG for interface screenshots, keep text readable at the page's normal width, and remove private chat, addresses, or player information before publishing.
+## Images in use
 
-## Screenshot checklist
-
-| Suggested filename | Page | What to capture |
+| Local file | Source | Placement and visible content |
 | --- | --- | --- |
-| `01-minimap-overview.png` | Welcome and Minimap | Normal gameplay with the minimap, compass, player icon, and coordinate panel visible. |
-| `02-minimap-shapes-and-corners.png` | Minimap | The same location shown with disc, hexagon, and box shapes in different corners; label the examples. |
-| `03-fullscreen-atlas.png` | Atlas | The entire fullscreen map, left toolbar, player marker, compass, and horizontal coordinates. |
-| `04-framed-atlas.png` | Atlas | The framed layout showing its border, title, and stacked coordinate readout. |
-| `05-center-point.png` | Atlas | Center point enabled after panning away from the player, with center X/Z visible. |
-| `06-personal-waypoints.png` | Waypoints and Places | A waypoint journal with a few clearly named personal locations and its controls. |
-| `07-server-place-search.png` | Waypoints and Places | The server-place search and a selected public destination. |
-| `08-cave-layers.png` | Live Terrain and Caves | Surface and cave views from the same region, labelled with the selected mode. |
-| `09-world-image.png` | Saved World Images | A saved world image in the atlas, with enough landmarks to show its rendered area. |
-| `10-player-marker-settings.png` | Player Settings | Separate minimap and atlas icon selectors and their previews. |
-| `11-theme-selector.png` | Themes | The theme selector and a preview before Apply. |
-| `12-keybind-settings.png` | Opening Keybinds | The modifier and trigger selectors with a readable selected gesture. |
-| `13-permission-denied.png` | Permissions | A denied action and its translated feedback; do not include permission-manager account details. |
-| `14-pack-folder.png` | Pack Installation | Only the installed complete pack filenames inside the plugin's Packs folder. |
+| [00-beastminimap-logo.png](assets/images/00-beastminimap-logo.png) | [Imgur original](https://i.imgur.com/QzVBowH.png) | [Welcome](README.md): BeastMiniMap logo with map and compass. |
+| [01-minimap-overview.png](assets/images/01-minimap-overview.png) | [Imgur original](https://i.imgur.com/4YgEbIA.png) | [Welcome](README.md) and [First Install](getting-started/first-install.md): minimap during normal gameplay. |
+| [02-minimap-shapes.png](assets/images/02-minimap-shapes.png) | [Imgur original](https://i.imgur.com/AoAZUsw.png) | [Minimap](maps/minimap.md): disc, hexagon and box outlines at the same location. |
+| [03-atlas-layouts.png](assets/images/03-atlas-layouts.png) | [Imgur original](https://i.imgur.com/UHhNUQp.png) | [Atlas](maps/atlas.md): fullscreen and framed layouts side by side. |
+| [04-waypoint-journal.png](assets/images/04-waypoint-journal.png) | [Imgur original](https://i.imgur.com/XGAcYtk.png) | [Waypoints and Places](maps/waypoints-and-places.md): personal journal with saved destinations. |
+| [05-server-place-search.png](assets/images/05-server-place-search.png) | [Imgur original](https://i.imgur.com/HqYb0zS.png) | [Waypoints and Places](maps/waypoints-and-places.md): public-place search panel. |
+| [06-overworld-caves.png](assets/images/06-overworld-caves.png) | [Imgur original](https://i.imgur.com/9xKIYhY.png) | [Live Terrain and Caves](terrain/live-and-caves.md): underground passages, water and lava. |
+| [07-nether-terrain.png](assets/images/07-nether-terrain.png) | [Imgur original](https://i.imgur.com/k2Eu2yo.png) | [Terrain Sources](terrain/overview.md): Nether terrain and lava. |
+| [08-surface-terrain.png](assets/images/08-surface-terrain.png) | [Imgur original](https://i.imgur.com/obNIQCs.png) | [Terrain Sources](terrain/overview.md): surface rivers, trees and paths. |
+| [09-theme-preview.png](assets/images/09-theme-preview.png) | [Imgur original](https://i.imgur.com/F3iIiKy.png) | [Themes](customization/themes.md): Oceanic preview before Apply. |
+| [10-atlas-settings.png](assets/images/10-atlas-settings.png) | [Imgur original](https://i.imgur.com/lEYhL1e.png) | [Player Settings](customization/player-settings.md): atlas settings and previews. This example has Client Helper selected; the default is Vanilla Anvil. |
+| [11-minimap-settings.png](assets/images/11-minimap-settings.png) | [Imgur original](https://i.imgur.com/DAXalMh.png) | [Player Settings](customization/player-settings.md) and [Setup Flow](getting-started/common-setup-flow.md): shape, corner, size, zoom and previews. |
 
-## Add an image
+## Add or replace an image
+
+Use PNG for interface screenshots, keep text readable at the page's normal width, and remove private chat, addresses, or player information before publishing. Preserve an existing filename when replacing the same illustration, then update its caption and source record if needed.
 
 For a page in a folder such as `maps/`, use:
 
 ```markdown
-![Fullscreen atlas with its toolbar and coordinate panel](../assets/images/03-fullscreen-atlas.png)
+![Fullscreen and framed atlas layouts](../assets/images/03-atlas-layouts.png)
 ```
 
 From the wiki home page, use:
@@ -37,19 +35,17 @@ From the wiki home page, use:
 ![BeastMiniMap during normal gameplay](assets/images/01-minimap-overview.png)
 ```
 
-Only add the image link after its file exists. Replace the corresponding screenshot note with the image and a short caption. Use descriptive alt text.
+Only add an image link after its file exists. Use descriptive alt text and a short caption explaining what the image actually shows. An example's selected settings are not necessarily the current server defaults.
 
-## Existing listing images
+## Useful future screenshots
 
-These hosted images are already used in the owner's marketplace description. They can be reused while new local wiki screenshots are being prepared. Their grouped labels describe their current listing sections; review a screenshot before using it to illustrate a recently changed control.
+The current images cover the existing listing examples. Additional images could illustrate these specific instructions:
 
-| Listing section | Existing image |
-| --- | --- |
-| Product banner | [Banner](https://i.imgur.com/QzVBowH.png) |
-| Overview | [Overview image](https://i.imgur.com/4YgEbIA.png) |
-| Minimap layouts | [Layout examples](https://i.imgur.com/AoAZUsw.png) |
-| Atlas | [Atlas image](https://i.imgur.com/UHhNUQp.png) |
-| Waypoints and places | [First image](https://i.imgur.com/XGAcYtk.png), [second image](https://i.imgur.com/HqYb0zS.png) |
-| Surface and cave layers | [First image](https://i.imgur.com/9xKIYhY.png), [second image](https://i.imgur.com/k2Eu2yo.png) |
-| Terrain sources | [Terrain image](https://i.imgur.com/obNIQCs.png) |
-| Settings and themes | [First image](https://i.imgur.com/F3iIiKy.png), [second image](https://i.imgur.com/lEYhL1e.png), [third image](https://i.imgur.com/DAXalMh.png) |
+- Independent minimap and atlas player-icon selectors on the Player Marker page.
+- Modifier and trigger selectors on the Shortcut page.
+- Center crosshair enabled after panning, with its center X/Z readout.
+- A confirmed saved `world_texture` render, showing its selected bounds.
+- A denied action and translated feedback for the permission guide.
+- The installed complete ZIP filenames inside `Packs/`.
+
+The Nether image and underground Overworld image show different worlds and locations; do not label them as a before/after comparison of one area. A terrain screenshot alone does not identify its configured source mode.

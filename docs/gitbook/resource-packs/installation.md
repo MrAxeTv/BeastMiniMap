@@ -63,5 +63,3 @@ An unchanged pack can reuse client downloads and caches. A changed pack can take
 ## Other resource packs
 
 Other plugins or player packs that replace the same Minecraft core shaders can conflict. Use supported composition where available and test the resulting combined pack. The presence of an unrelated pack does not count as acceptance of BeastMiniMap's own offer.
-
-> **Screenshot placement:** show only the installed complete pack filenames inside `Packs/`. Suggested file: `14-pack-folder.png` in the wiki's `assets/images/` folder.

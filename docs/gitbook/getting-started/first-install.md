@@ -65,6 +65,8 @@ This example allows all player controls and settings, with up to 16 personal way
 
 Explore a nearby loaded area to reveal live terrain. Saved-image rendering and player discovery are separate features; rendering an image does not grant exploration to every player.
 
-> **Screenshot placement:** add a first-login image showing the minimap after pack acceptance. Suggested file: `01-minimap-overview.png` in the wiki's `assets/images/` folder. See the image placement guide before adding the Markdown image.
+![BeastMiniMap displayed in the upper-right corner during normal gameplay](../assets/images/01-minimap-overview.png)
+
+*Example of the minimap and coordinate panel after accepting the resource pack.*
 
 Next: [Common Setup Flow](common-setup-flow.md).

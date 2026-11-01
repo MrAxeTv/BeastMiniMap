@@ -30,7 +30,9 @@ Open `/beastminimap map settings`, then choose the minimap options. The visual p
 
 The coordinate panel can be hidden. Its automatic width follows the displayed coordinates; fixed width keeps the panel steady. These controls are on the settings menu's Appearance page.
 
-> **Screenshot placeholder — minimap shapes and positions:** Show the same location with Disc, Hexagon and Box maps in different corners. Suggested image: `02-minimap-shapes-and-corners.png`.
+![Disc, hexagon and box minimaps showing the same location](../assets/images/02-minimap-shapes.png)
+
+*The three minimap outlines using the Cartographer artwork.*
 
 ## Server Defaults
 

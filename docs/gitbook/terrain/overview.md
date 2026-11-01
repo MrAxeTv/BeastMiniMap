@@ -9,6 +9,14 @@ player settings, waypoints and navigation controls work with all three sources.
 | `live_strata` | Live surface terrain plus height-based cave layers | Servers that want underground mapping |
 | `world_texture` | A saved world image rendered from existing region files | A fixed map of a selected area |
 
+![Surface terrain in the atlas with rivers, trees, paths and a player marker](../assets/images/08-surface-terrain.png)
+
+*Surface terrain and landmarks in the atlas interface.*
+
+![Nether terrain in the atlas with lava and contrasting biome colors](../assets/images/07-nether-terrain.png)
+
+*An atlas terrain example from the Nether.*
+
 New worlds use `live_terrain`. An administrator can change a loaded world with:
 
 ```text

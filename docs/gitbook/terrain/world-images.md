@@ -9,8 +9,6 @@ An image reflects saved world data. Save important world edits before rendering;
 unsaved changes cannot appear in the output. After later terrain or colour
 changes, explicitly render a replacement image.
 
-> **Screenshot placement:** show a completed saved image in the atlas as `09-world-image.png`, with recognizable landmarks and the rendered area visible.
-
 ## Render around your position
 
 1. Join the world you want to map and stand at the desired centre.

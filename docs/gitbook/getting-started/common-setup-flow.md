@@ -77,7 +77,9 @@ Using an ordinary player account:
 
 The atlas does not open while the player is gliding with elytra-style flight. Starting to glide while it is open closes the atlas.
 
-> **Screenshot placement:** capture the independent minimap and atlas icon settings as `10-player-marker-settings.png` in the wiki's `assets/images/` folder. Keep private server information out of the image.
+![Minimap settings with shape, corner, size, zoom and preview controls](../assets/images/11-minimap-settings.png)
+
+*The pixel settings menu previews the selected minimap appearance before Apply.*
 
 ## 6. Add shared destinations
 

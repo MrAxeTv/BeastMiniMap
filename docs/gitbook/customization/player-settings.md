@@ -21,7 +21,13 @@ The server can use the pixel menu or native Minecraft dialogs. `Atlas.MenuUi: pi
 
 The settings previews use sample terrain. They show the proposed appearance without moving the player or exposing undiscovered world data.
 
-> **Screenshot placeholder — settings previews:** Show the Player Marker page with different minimap and full-map symbols. Suggested image: `10-player-marker-settings.png`.
+![Pixel settings for pointer sensitivity, search input, atlas layout, place icons and zoom](../assets/images/10-atlas-settings.png)
+
+*Atlas settings and previews. This example uses the Client Helper search preference; Vanilla Anvil remains the default.*
+
+![Pixel settings for minimap visibility, shape, corner, size and zoom](../assets/images/11-minimap-settings.png)
+
+*Minimap controls with previews for the proposed appearance.*
 
 ## Apply, Cancel and Reset
 

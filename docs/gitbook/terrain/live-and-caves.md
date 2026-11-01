@@ -39,7 +39,9 @@ visible cave floor rather than showing every room above and below the player.
 Surface and cave exploration remain separate: visiting the surface does not
 uncover the caves underneath it.
 
-> **Screenshot placement:** compare surface and cave views from the same region in `08-cave-layers.png`, with the selected mode labelled.
+![An underground Overworld atlas showing cave passages, water and lava](../assets/images/06-overworld-caves.png)
+
+*Example of underground terrain displayed in the atlas.*
 
 ## Capture and refresh
 

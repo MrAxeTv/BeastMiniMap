@@ -38,8 +38,6 @@ Use `Modifiers: []` for no modifier. Matching is exact: a SNEAK-only shortcut do
 
 The Shortcut page in `/beastminimap map settings` has separate dropdowns for modifiers and trigger. Apply saves the choice; Cancel discards it. The two fields have separate permissions:
 
-> **Screenshot placement:** show the two shortcut selectors and the selected gesture in `12-keybind-settings.png`.
-
 ```text
 beastminimap.settings.keybind.modifiers
 beastminimap.settings.keybind.trigger

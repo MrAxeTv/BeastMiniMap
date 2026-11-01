@@ -24,7 +24,9 @@ Names can contain spaces and must contain 1–40 characters. Names must be uniqu
 
 The atlas journal lets you locate a marker, edit it, hide or show it, change its edge-marker preference, or delete it. Hiding a marker preserves its saved location and edge preference. The journal's individual actions may have different permissions.
 
-> **Screenshot placeholder — waypoint journal:** Show several personal markers and the edit/create form. Suggested image: `06-personal-waypoints.png`. Add `07-server-place-search.png` alongside the public-place instructions below.
+![Personal waypoint journal listing Cave, Home and Desert](../assets/images/04-waypoint-journal.png)
+
+*The personal journal lists saved locations and their available controls.*
 
 ## Waypoint Allowances
 
@@ -54,6 +56,10 @@ Use Search in the atlas or:
 Search supports the vanilla anvil input by default. Players with permission can choose another available typing method in [settings](../customization/player-settings.md). Escape leaves the text input and returns to map navigation.
 
 Place visibility, minimap visibility and edge markers can be adjusted through the place controls when permitted. These are personal display choices, not edits to the shared destination.
+
+![Public-place search listing harbor, spawn, horse shop and temple destinations](../assets/images/05-server-place-search.png)
+
+*Shared places appear in the atlas search panel with their location and display controls.*
 
 ## Create Public Places
 
