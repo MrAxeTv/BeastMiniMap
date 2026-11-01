@@ -1257,3 +1257,6 @@ Terrain:
     QueueFull: "La cua de renderització prèvia està plena"
     Summary: "{phase} {completed}/{total} trossos, reutilitzats={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} trossos, reutilitzats={reused}; {detail}"
+
+Permissions:
+  Denied: "No tens permís per utilitzar aquesta opció."

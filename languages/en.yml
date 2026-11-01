@@ -1256,3 +1256,6 @@ Terrain:
     QueueFull: "Prerender queue is full"
     Summary: "{phase} {completed}/{total} chunks, reused={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} chunks, reused={reused}; {detail}"
+
+Permissions:
+  Denied: "You do not have permission to use this option."

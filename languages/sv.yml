@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Förrenderingskön är full"
     Summary: "{phase} {completed}/{total} bitar, återanvänd={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} bitar, återanvänd={reused}; {detail}"
+
+Permissions:
+  Denied: "Du har inte behörighet att använda det här alternativet."

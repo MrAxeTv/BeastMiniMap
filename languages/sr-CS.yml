@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Ред за предрендерирање је пун"
     Summary: "{phase} {completed}/{total} комади, поново кориштени={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} комади, поново кориштени={reused}; {detail}"
+
+Permissions:
+  Denied: "Немате дозволу за коришћење ове опције."

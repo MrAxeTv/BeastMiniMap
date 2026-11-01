@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Черга попереднього відтворення повна"
     Summary: "{phase} {completed}/{total} чанків, повторно={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} чанків, повторно={reused}; {detail}"
+
+Permissions:
+  Denied: "Ви не маєте дозволу використовувати цю опцію."

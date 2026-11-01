@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Az előrenderelési sor megtelt"
     Summary: "{phase} {completed}/{total} darabok, újrafelhasználva = {reused}"
     SummaryWithDetail: "{phase} {completed}/{total} darabok, újrafelhasználva = {reused}; {detail}"
+
+Permissions:
+  Denied: "Nincs jogosultságod ennek a beállításnak a használatához."

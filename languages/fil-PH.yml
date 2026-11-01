@@ -1257,3 +1257,6 @@ Terrain:
     QueueFull: "Puno na ang queue sa paunang pag-render"
     Summary: "{phase} {completed}/{total} chunks, ginamit muli={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} chunks, reused={reused}; {detail}"
+
+Permissions:
+  Denied: "Wala kang pahintulot na gamitin ang opsyong ito."

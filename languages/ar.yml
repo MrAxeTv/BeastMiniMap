@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "قائمة انتظار العرض المسبق ممتلئة"
     Summary: "قطع {phase} {completed}/{total}، معاد استخدامها={reused}"
     SummaryWithDetail: "قطع {phase} {completed}/{total}، معاد استخدامها={reused}؛ {detail}"
+
+Permissions:
+  Denied: "ليست لديك صلاحية لاستخدام هذا الخيار."

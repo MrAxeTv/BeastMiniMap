@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "預渲染隊列已滿"
     Summary: "{phase} {completed}/{total} 個區塊，reused={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} 個區塊，reused={reused}；{detail}"
+
+Permissions:
+  Denied: "你沒有權限使用此選項。"

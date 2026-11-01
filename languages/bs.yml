@@ -1257,3 +1257,6 @@ Terrain:
     QueueFull: "Red za predrenderiranje je pun"
     Summary: "{phase} {completed}/{total} komadi, ponovo korišteni={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} komadi, ponovo korišteni={reused}; {detail}"
+
+Permissions:
+  Denied: "Nemate dozvolu za korištenje ove opcije."

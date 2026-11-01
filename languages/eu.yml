@@ -1257,3 +1257,6 @@ Terrain:
     QueueFull: "Aurrez errendatzeko ilara beteta dago"
     Summary: "{phase} {completed}/{total} zatiak, berrerabiliak={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} zatiak, berrerabiliak={reused}; {detail}"
+
+Permissions:
+  Denied: "Ez duzu aukera hau erabiltzeko baimenik."

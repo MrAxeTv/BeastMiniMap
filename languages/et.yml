@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Eelrenderduse järjekord on täis"
     Summary: "{phase} {completed}/{total} tükid, taaskasutatud = {reused}"
     SummaryWithDetail: "{phase} {completed}/{total} tükid, taaskasutatud = {reused}; {detail}"
+
+Permissions:
+  Denied: "Sul pole selle valiku kasutamiseks õigust."

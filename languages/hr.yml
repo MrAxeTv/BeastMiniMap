@@ -1256,3 +1256,6 @@ Terrain:
     QueueFull: "Red pripreme iscrtavanja je pun"
     Summary: "{phase} {completed}/{total} chunkova, ponovno korišteno={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} chunkova, ponovno korišteno={reused}; {detail}"
+
+Permissions:
+  Denied: "Nemate dopuštenje za korištenje ove opcije."

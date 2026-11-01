@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Prerender-wachtrij is vol"
     Summary: "{phase} {completed}/{total} chunks, hergebruikt={reused}"
     SummaryWithDetail: "{phase} {completed}/{total}-brokken, hergebruikt={reused}; {detail}"
+
+Permissions:
+  Denied: "Je hebt geen toestemming om deze optie te gebruiken."

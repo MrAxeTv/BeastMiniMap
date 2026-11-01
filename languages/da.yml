@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Prærender-køen er fuld"
     Summary: "{phase} {completed}/{total} bidder, genbrugt={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} bidder, genbrugt={reused}; {detail}"
+
+Permissions:
+  Denied: "Du har ikke tilladelse til at bruge denne indstilling."

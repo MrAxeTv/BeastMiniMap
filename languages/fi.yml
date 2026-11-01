@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Esirenderöintijono on täynnä"
     Summary: "{phase} {completed}/{total} palat, uudelleen käytetyt = {reused}"
     SummaryWithDetail: "{phase} {completed}/{total} palaset, uudelleenkäytetty = {reused}; {detail}"
+
+Permissions:
+  Denied: "Sinulla ei ole oikeutta käyttää tätä asetusta."

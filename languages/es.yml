@@ -1257,3 +1257,6 @@ Terrain:
     QueueFull: "La cola de preprocesamiento está llena"
     Summary: "{phase} {completed}/{total} fragmentos, reutilizados={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} fragmentos, reutilizados={reused}; {detail}"
+
+Permissions:
+  Denied: "No tienes permiso para usar esta opción."

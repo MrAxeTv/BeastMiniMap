@@ -1257,3 +1257,6 @@ Terrain:
     QueueFull: "A fila de pré-renderização está cheia"
     Summary: "{phase} {completed}/{total} peças, reutilizadas={reused}"
     SummaryWithDetail: "{phase} Peças {completed}/{total}, reutilizadas={reused}; {detail}"
+
+Permissions:
+  Denied: "Não tens permissão para usar esta opção."

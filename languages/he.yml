@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "תור העיבוד המוקדם מלא"
     Summary: "נתחי {phase} {completed}/{total}, בשימוש חוזר={reused}"
     SummaryWithDetail: "נתחי {phase} {completed}/{total}, בשימוש חוזר={reused}; {detail}"
+
+Permissions:
+  Denied: "אין לך הרשאה להשתמש באפשרות הזו."

@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Išankstinio pateikimo eilė pilna"
     Summary: "{phase} {completed} / {total} gabaliukai, pakartotinai naudojami = {reused}"
     SummaryWithDetail: "{phase} {completed}/{total} gabaliukai, pakartotinai naudojami = {reused}; {detail}"
+
+Permissions:
+  Denied: "Neturite leidimo naudoti šią parinktį."

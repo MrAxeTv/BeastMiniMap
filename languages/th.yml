@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "คิวการแสดงล่วงหน้าเต็มแล้ว"
     Summary: "{phase} {completed}/{total} ชิ้น นำกลับมาใช้ใหม่={reused}"
     SummaryWithDetail: "ชิ้นส่วน {phase} {completed}/{total} ใช้ซ้ำ={reused}; {detail}"
+
+Permissions:
+  Denied: "คุณไม่มีสิทธิ์ใช้ตัวเลือกนี้"

@@ -1257,3 +1257,6 @@ Terrain:
     QueueFull: "La coda di prerendering è piena"
     Summary: "Pezzi {phase} {completed}/{total}, riutilizzati={reused}"
     SummaryWithDetail: "Pezzi {phase} {completed}/{total}, riutilizzati={reused}; {detail}"
+
+Permissions:
+  Denied: "Non hai il permesso di usare questa opzione."

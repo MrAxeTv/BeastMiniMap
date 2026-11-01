@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Ta'n row ro-reih laghyn"
     Summary: "{phase} {completed}/{total} chunks, reused={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} chunks, reused={reused}; {detail}"
+
+Permissions:
+  Denied: "Cha nel kied ayd yn reih shoh y ymmydey."

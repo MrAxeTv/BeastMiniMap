@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Fronta předběžného vykreslení je plná"
     Summary: "Bloky {phase} {completed}/{total}, znovu použité = {reused}"
     SummaryWithDetail: "{phase} {completed}/{total} kusy, znovu použité={reused}; {detail}"
+
+Permissions:
+  Denied: "Nemáte oprávnění použít tuto možnost."

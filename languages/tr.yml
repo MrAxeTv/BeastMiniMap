@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Ön çizim kuyruğu dolu"
     Summary: "{phase} {completed}/{total} chunk, yeniden kullanılan={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} chunk, yeniden kullanılan={reused}; {detail}"
+
+Permissions:
+  Denied: "Bu seçeneği kullanma izniniz yok."

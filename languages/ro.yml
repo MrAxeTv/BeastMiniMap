@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Coada de preredare este plină"
     Summary: "{phase} {completed}/{total} bucăți, reutilizate={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} bucăți, reutilizate={reused}; {detail}"
+
+Permissions:
+  Denied: "Nu ai permisiunea de a folosi această opțiune."

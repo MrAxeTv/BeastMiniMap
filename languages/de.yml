@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Die Prerender-Warteschlange ist voll"
     Summary: "{phase} {completed}/{total}-Blöcke, wiederverwendet={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} Chunks, wiederverwendet={reused}; {detail}"
+
+Permissions:
+  Denied: "Du hast keine Berechtigung, diese Option zu verwenden."

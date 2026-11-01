@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Урьдчилан дүрслэх дараалал дүүрсэн"
     Summary: "{phase} {completed}/{total} хэсгүүд, дахин ашигласан={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} хэсгүүд, дахин ашигласан={reused}; {detail}"
+
+Permissions:
+  Denied: "Энэ сонголтыг ашиглах зөвшөөрөл танд байхгүй."

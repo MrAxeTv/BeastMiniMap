@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "පෙර ලබා දීමේ පෝලිම පිරී ඇත"
     Summary: "{phase} {completed}/{total} කුට්ටි, නැවත භාවිත={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} කුට්ටි, reused={reused}; {detail}"
+
+Permissions:
+  Denied: "මෙම විකල්පය භාවිත කිරීමට ඔබට අවසර නැත."

@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Tá scuaine an réamhreora lán"
     Summary: "{phase} {completed}/{total} smután, athúsáidte={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} smután, athúsáidte={reused}; {detail}"
+
+Permissions:
+  Denied: "Níl cead agat an rogha seo a úsáid."

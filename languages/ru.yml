@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Очередь предварительного рендеринга заполнена"
     Summary: "{phase} {completed}/{total} фрагменты, повторно используемые = {reused}"
     SummaryWithDetail: "{phase} {completed}/{total} фрагменты, повторно используемые = {reused}; {detail}"
+
+Permissions:
+  Denied: "У вас нет разрешения на использование этой настройки."

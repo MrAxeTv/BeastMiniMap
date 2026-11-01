@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Опашката за предварително изобразяване е пълна"
     Summary: "{phase} {completed}/{total} парчета, използвани повторно={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} парчета, използвани повторно={reused}; {detail}"
+
+Permissions:
+  Denied: "Нямате разрешение да използвате тази опция."

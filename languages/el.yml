@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Η ουρά προαπόδοσης είναι γεμάτη"
     Summary: "{phase} {completed}/{total} κομμάτια, επαναχρησιμοποιημένα={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} κομμάτια, επαναχρησιμοποιημένα={reused}; {detail}"
+
+Permissions:
+  Denied: "Δεν έχετε άδεια να χρησιμοποιήσετε αυτή την επιλογή."

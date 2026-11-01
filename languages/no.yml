@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Forhåndskøen er full"
     Summary: "{phase} {completed}/{total} biter, gjenbrukt={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} biter, gjenbrukt={reused}; {detail}"
+
+Permissions:
+  Denied: "Du har ikke tillatelse til å bruke dette valget."

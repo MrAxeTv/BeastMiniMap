@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "プリレンダーキューがいっぱいです"
     Summary: "{phase} {completed}/{total} チャンク、再利用 = {reused}"
     SummaryWithDetail: "{phase} {completed}/{total} チャンク、再利用 = {reused}; {detail}"
+
+Permissions:
+  Denied: "この項目を使用する権限がありません。"

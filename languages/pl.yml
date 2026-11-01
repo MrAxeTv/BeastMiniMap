@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Kolejka do wstępnego renderowania jest pełna"
     Summary: "{phase} {completed}/{total} kawałki, ponownie użyte={reused}"
     SummaryWithDetail: "Kawałki {phase} {completed}/{total}, ponownie użyte={reused}; {detail}"
+
+Permissions:
+  Denied: "Nie masz uprawnień do używania tej opcji."

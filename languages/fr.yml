@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "La file d'attente de pré-rendu est pleine"
     Summary: "Morceaux {phase} {completed}/{total}, réutilisés = {reused}"
     SummaryWithDetail: "Morceaux {phase} {completed}/{total}, réutilisés = {reused} ; {detail}"
+
+Permissions:
+  Denied: "Tu n\u0027as pas la permission d\u0027utiliser cette option."

@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "사전 렌더링 대기열이 가득 찼습니다"
     Summary: "{phase} 청크 {completed}/{total}개, 재사용={reused}"
     SummaryWithDetail: "{phase} 청크 {completed}/{total}개, 재사용={reused}; {detail}"
+
+Permissions:
+  Denied: "이 옵션을 사용할 권한이 없습니다."

@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Priekšrenderēšanas rinda ir pilna"
     Summary: "{phase} {completed}/{total} gabali, atkārtoti izmantoti = {reused}"
     SummaryWithDetail: "{phase} {completed}/{total} gabali, atkārtoti izmantoti = {reused}; {detail}"
+
+Permissions:
+  Denied: "Jums nav atļaujas izmantot šo opciju."

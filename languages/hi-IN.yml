@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "प्रीरेंडर कतार भरी हुई है"
     Summary: "{phase} {completed}/{total} टुकड़े, पुन: उपयोग={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} टुकड़े, पुन: उपयोग={reused}; {detail}"
+
+Permissions:
+  Denied: "आपको इस विकल्प का उपयोग करने की अनुमति नहीं है।"

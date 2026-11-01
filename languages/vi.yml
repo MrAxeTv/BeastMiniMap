@@ -1258,3 +1258,6 @@ Terrain:
     QueueFull: "Hàng đợi kết xuất trước đầy"
     Summary: "{phase} {completed}/{total} đoạn, dùng lại={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} đoạn, dùng lại={reused}; {detail}"
+
+Permissions:
+  Denied: "Bạn không có quyền sử dụng tùy chọn này."

@@ -1257,3 +1257,6 @@ Terrain:
     QueueFull: "Forbirtingarröð er full"
     Summary: "{phase} {completed}/{total} bitar, endurnýttir={reused}"
     SummaryWithDetail: "{phase} {completed}/{total} bitar, endurnýttir={reused}; {detail}"
+
+Permissions:
+  Denied: "Þú hefur ekki heimild til að nota þennan valkost."
