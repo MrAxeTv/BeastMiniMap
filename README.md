@@ -91,7 +91,7 @@ Machine-readable download and compatibility information: [packs.json](packs.json
 
 English (`en-US.yml`) is the default. The plugin bundles 33 European/US-English
 language files, including Russian and Turkish. The remaining 17 files are
-available in the [matching language snapshot](https://github.com/MrAxeTv/BeastMiniMap/tree/languages-f8663414d5f2cc59/languages).
+available in the [matching language snapshot](https://github.com/MrAxeTv/BeastMiniMap/tree/languages-98df6c8fad8ccb41/languages).
 
 Selecting an optional filename downloads its matching defaults in the background
 when `Options.Language.Settings.AutoDownload: true` (the default). Set it to
